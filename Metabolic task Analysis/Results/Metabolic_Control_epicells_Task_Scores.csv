@@ -1,0 +1,213 @@
+METABOLISM_TYPE,REACTION_NAME,REACTION_DESCRIPTION,sprintcore,swiftcore,fastcore
+ENERGY METABOLISM,OXYDATIVE PHOSPHORYLATION,Oxidative phosphorylation via NADH-coenzyme Q oxidoreductase (COMPLEX I),true,true,true
+ENERGY METABOLISM,OXYDATIVE PHOSPHORYLATION,Oxidative phosphorylation via succinate-coenzyme Q oxidoreductase (COMPLEX II),true,true,true
+ENERGY METABOLISM,KREBS CYCLE,Krebs cycle - oxidative decarboxylation of pyruvate,true,true,true
+ENERGY METABOLISM,KREBS CYCLE,Krebs cycle - NADH generation,true,true,true
+ENERGY METABOLISM,ATP GENERATION,ATP regeneration from glucose (normoxic conditions) - glycolysis + krebs cycle,true,true,true
+ENERGY METABOLISM,ATP GENERATION,ATP generation from glucose (hypoxic conditions) - glycolysis,true,true,true
+ENERGY METABOLISM,ATP GENERATION,ATP generation from ions,FAIL (should fail),FAIL (should fail),FAIL (should fail)
+ENERGY METABOLISM,OXIDATIVE PHOSPHORYLATION & ROS DETOXIFICATION,Reactive oxygen species detoxification (H2O2 to H2O),true,true,true
+ENERGY METABOLISM,REDOX METABOLISM,Presence of the thioredoxin system through the thioredoxin reductase activity,true,true,true
+NUCLEOTIDE METABOLISM,IMP SYNTHESIS / PURINE METABOLISM,Inosine monophosphate synthesis (IMP),true,true,true
+NUCLEOTIDE METABOLISM,UMP SYNTHESIS,Cytidine triphosphate synthesis (CTP),true,true,true
+NUCLEOTIDE METABOLISM,IMP SYNTHESIS / PURINE METABOLISM,Guanosine triphosphate synthesis (GTP),true,true,true
+NUCLEOTIDE METABOLISM,UMP SYNTHESIS,Uridine triphosphate synthesis (UTP),true,true,true
+NUCLEOTIDE METABOLISM,DEOXYNUCLEOTIDES SYNTHESIS,Deoxyadenosine triphosphate synthesis (dATP),true,true,true
+NUCLEOTIDE METABOLISM,DEOXYNUCLEOTIDES SYNTHESIS,Deoxycytidine triphosphate synthesis (dCTP),true,true,true
+NUCLEOTIDE METABOLISM,DEOXYNUCLEOTIDES SYNTHESIS,Deoxyguanosine triphosphate synthesis (dGTP),true,true,true
+NUCLEOTIDE METABOLISM,DEOXYNUCLEOTIDES SYNTHESIS,Deoxyuridine triphosphate synthesis (dUTP),true,true,true
+NUCLEOTIDE METABOLISM,DEOXYNUCLEOTIDES SYNTHESIS,Deoxythymidine triphosphate synthesis (dTTP),true,true,true
+NUCLEOTIDE METABOLISM,SALVAGE,AMP salvage from adenine,true,true,true
+NUCLEOTIDE METABOLISM,SALVAGE,IMP salvage from hypoxanthine,true,true,true
+NUCLEOTIDE METABOLISM,SALVAGE,GMP salvage from guanine,true,true,true
+NUCLEOTIDE METABOLISM,COFACTOR,3'-Phospho-5'-adenylyl sulfate synthesis,true,true,true
+NUCLEOTIDE METABOLISM,PURINE CATABOLISM,Degradation of adenine to urate,true,true,true
+NUCLEOTIDE METABOLISM,PURINE CATABOLISM,Degradation of guanine to urate,true,true,true
+NUCLEOTIDE METABOLISM,PYRIMIDINE CATABOLISM,Degradation of cytosine,true,true,true
+NUCLEOTIDE METABOLISM,PYRIMIDINE CATABOLISM,Degradation of uracil,true,true,true
+CARBOHYDRATES METABOLISM,GLUCONEOGENESIS,Gluconeogenesis from pyruvate,true,true,true
+CARBOHYDRATES METABOLISM,GLUCONEOGENESIS,Gluconeogenesis from Lactate,true,true,true
+CARBOHYDRATES METABOLISM,GLUCONEOGENESIS,Gluconeogenesis from Glycerol,true,true,true
+CARBOHYDRATES METABOLISM,GLUCONEOGENESIS,Gluconeogenesis from Alanine,true,true,true
+CARBOHYDRATES METABOLISM,GLUCONEOGENESIS,Gluconeogenesis from Glutamine,true,true,true
+CARBOHYDRATES METABOLISM,GLYCOLYSIS/GLUCONEOGENESIS,Ethanol to acetaldehyde,true,true,true
+CARBOHYDRATES METABOLISM,PYRUVATE METABOLISM,Glucose to lactate conversion,true,true,true
+CARBOHYDRATES METABOLISM,PYRUVATE METABOLISM,Malate to pyruvate conversion,true,true,true
+CARBOHYDRATES METABOLISM,PENTOSE PHOSPHATE PATHWAY,Synthesis of fructose-6-phosphate from erythrose-4-phosphate (HMP shunt),true,true,true
+CARBOHYDRATES METABOLISM,PENTOSE PHOSPHATE PATHWAY,Synthesis of ribose-5-phosphate,true,true,true
+CARBOHYDRATES METABOLISM,GALACTOSE METABOLISM,Synthesis of lactose,true,true,true
+CARBOHYDRATES METABOLISM,GLYCOGEN METABOLISM,Glycogen biosynthesis,true,true,true
+CARBOHYDRATES METABOLISM,GLYCOGEN METABOLISM,Glycogen degradation,true,true,true
+CARBOHYDRATES METABOLISM,FRUCTOSE METABOLISM,Fructose degradation (to glucose-3-phosphate),true,true,true
+CARBOHYDRATES METABOLISM,FRUCTOSE METABOLISM,Fructose to glucose conversion (via fructose-6-phosphate),true,true,true
+CARBOHYDRATES METABOLISM,NUCLEOTIDE SUGAR,UDP-glucose synthesis,true,true,true
+CARBOHYDRATES METABOLISM,NUCLEOTIDE SUGAR,UDP-galactose synthesis,true,true,true
+CARBOHYDRATES METABOLISM,NUCLEOTIDE SUGAR,UDP-glucuronate synthesis,true,true,true
+CARBOHYDRATES METABOLISM,FUCOSE METABOLISM,GDP-L-fucose synthesis,true,true,true
+CARBOHYDRATES METABOLISM,MANNOSE METABOLISM,Mannose degradation (to fructose-6-phosphate),true,true,true
+CARBOHYDRATES METABOLISM,MANNOSE METABOLISM,GDP-mannose synthesis,true,true,true
+CARBOHYDRATES METABOLISM,AMINO SUGARS METABOLISM,UDP-N-acetyl D-galactosamine synthesis,true,true,true
+CARBOHYDRATES METABOLISM,AMINO SUGARS METABOLISM,CMP-N-acetylneuraminate synthesis,true,true,true
+CARBOHYDRATES METABOLISM,AMINO SUGARS METABOLISM,N-Acetylglucosamine synthesis,true,true,true
+CARBOHYDRATES METABOLISM,PENTOSE AND GLUCURONATE INTERCONVERSION,Glucuronate synthesis (via inositol),true,true,true
+CARBOHYDRATES METABOLISM,PENTOSE AND GLUCURONATE INTERCONVERSION,Glucuronate synthesis (via udp-glucose),true,true,true
+CARBOHYDRATES METABOLISM,KETOGENESIS,Synthesis of acetone,true,true,true
+CARBOHYDRATES METABOLISM,KETOGENESIS,(R)-3-Hydroxybutanoate synthesis,true,true,true
+CARBOHYDRATES METABOLISM,PHOSPHATE INOSITOL METABOLISM,Synthesis of inositol,true,true,true
+CARBOHYDRATES METABOLISM,PHOSPHATE INOSITOL METABOLISM,Inositol as input for glucuronate-xylulose pathway,FAIL (should NOT fail),true,FAIL (should NOT fail)
+CARBOHYDRATES METABOLISM,PHOSPHATE INOSITOL METABOLISM,Synthesis of phosphatidylinositol from inositol,true,true,true
+CARBOHYDRATES METABOLISM,PHOSPHATE INOSITOL METABOLISM,"Conversion of 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate to 1D-myo-inositol 1,4,5-trisphosphate",true,true,true
+CARBOHYDRATES METABOLISM,STARCH DEGRADATION,Starch degradation,true,FAIL (should NOT fail),FAIL (should NOT fail)
+CARBOHYDRATES METABOLISM,GLYOXYLATE METABOLISM,Link between glyoxylate metabolism and pentose phosphate pathway (Xylulose to glycolate),true,true,true
+CARBOHYDRATES METABOLISM,METHYLGLYOXAL METABOLISM,Synthesis of methylglyoxal,true,true,true
+AMINO ACIDS METABOLISM,ALANINE METABOLISM,Alanine synthesis,true,true,true
+AMINO ACIDS METABOLISM,ALANINE METABOLISM,Alanine degradation,true,true,true
+AMINO ACIDS METABOLISM,ALANINE METABOLISM,Synthesis of alanine from glutamine,true,true,true
+AMINO ACIDS METABOLISM,ARGININE METABOLISM,Arginine synthesis,true,FAIL (should NOT fail),FAIL (should NOT fail)
+AMINO ACIDS METABOLISM,ARGININE METABOLISM,Arginine degradation,true,true,true
+AMINO ACIDS METABOLISM,ARGININE METABOLISM,Synthesis of arginine from glutamine,true,FAIL (should NOT fail),FAIL (should NOT fail)
+AMINO ACIDS METABOLISM,ARGININE METABOLISM,Synthesis of nitric oxide from arginine,FAIL (should NOT fail),FAIL (should NOT fail),FAIL (should NOT fail)
+AMINO ACIDS METABOLISM,ASPARTATE METABOLISM,Synthesis of aspartate from glutamine,true,true,true
+AMINO ACIDS METABOLISM,ARGININE METABOLISM,Synthesis of creatine from arginine,true,true,true
+AMINO ACIDS METABOLISM,ASPARAGINE METABOLISM,Asparagine synthesis,true,true,true
+AMINO ACIDS METABOLISM,ASPARAGINE METABOLISM,Asparagine degradation,true,true,true
+AMINO ACIDS METABOLISM,ASPARTATE METABOLISM,Aspartate synthesis,true,true,true
+AMINO ACIDS METABOLISM,ASPARTATE METABOLISM,Aspartate degradation,true,true,true
+AMINO ACIDS METABOLISM,ASPARTATE METABOLISM,Conversion of aspartate to arginine,true,true,true
+AMINO ACIDS METABOLISM,ASPARTATE METABOLISM,Conversion of aspartate to beta-alanine,true,true,true
+AMINO ACIDS METABOLISM,ASPARTATE METABOLISM,Conversion of asparate to asparagine,true,true,true
+AMINO ACIDS METABOLISM,BETA-ALANINE METABOLISM,beta-Alanine synthesis,true,true,true
+AMINO ACIDS METABOLISM,BETA-ALANINE METABOLISM,beta-Alanine degradation,true,true,true
+AMINO ACIDS METABOLISM,BETA-ALANINE METABOLISM,Conversion of carnosine to beta-alanine,true,true,true
+AMINO ACIDS METABOLISM,BETA-ALANINE METABOLISM,Beta-alanine to 3-oxopropanoate,true,true,true
+AMINO ACIDS METABOLISM,CYSTEINE METABOLISM,Cysteine synthesis,FAIL (should fail),FAIL (should fail),FAIL (should fail)
+AMINO ACIDS METABOLISM,CYSTEINE METABOLISM,Cysteine synthesis (need serine and methionine),true,true,true
+AMINO ACIDS METABOLISM,CYSTEINE METABOLISM,Cysteine degradation,true,true,true
+AMINO ACIDS METABOLISM,CYSTEINE METABOLISM,Synthesis of cysteine from cystine,true,true,true
+AMINO ACIDS METABOLISM,CYSTEINE METABOLISM,Synthesis of taurine from cysteine,true,true,true
+AMINO ACIDS METABOLISM,GLUTAMATE METABOLISM,Glutamate synthesis,true,true,true
+AMINO ACIDS METABOLISM,GLUTAMATE METABOLISM,Glutamate degradation,true,true,true
+AMINO ACIDS METABOLISM,GLUTAMATE METABOLISM,Conversion of glutamate to glutamine,true,true,true
+AMINO ACIDS METABOLISM,GLUTAMATE METABOLISM,Conversion of glutamate to proline,true,true,true
+AMINO ACIDS METABOLISM,GLUTAMATE METABOLISM,Conversion of GABA into succinate,true,true,true
+AMINO ACIDS METABOLISM,GLUTAMINE METABOLISM,Glutamine synthesis,true,true,true
+AMINO ACIDS METABOLISM,GLUTAMINE METABOLISM,Glutamine degradation,true,true,true
+AMINO ACIDS METABOLISM,GLUTAMINE METABOLISM,Glutaminolysis (glutamine to lactate),true,true,true
+AMINO ACIDS METABOLISM,GLUTATHIONE METABOLISM,Glutathionate synthesis,true,true,true
+AMINO ACIDS METABOLISM,GLYCINE METABOLISM,Glycine synthesis,true,true,true
+AMINO ACIDS METABOLISM,GLYCINE METABOLISM,Glycine degradation,true,true,true
+AMINO ACIDS METABOLISM,GLYCINE METABOLISM,Conversion of glycine to pyruvate,true,true,true
+AMINO ACIDS METABOLISM,HISTIDINE METABOLISM,Histidine synthesis,FAIL (should fail),FAIL (should fail),FAIL (should fail)
+AMINO ACIDS METABOLISM,HISTIDINE METABOLISM,Histidine degradation,FAIL (should NOT fail),FAIL (should NOT fail),FAIL (should NOT fail)
+AMINO ACIDS METABOLISM,HISTIDINE METABOLISM,Conversion of histidine to glutamate,FAIL (should NOT fail),FAIL (should NOT fail),FAIL (should NOT fail)
+AMINO ACIDS METABOLISM,HISTIDINE METABOLISM,Conversion of histidine to histamine,true,true,true
+AMINO ACIDS METABOLISM,HOMOCYSTEINE METABOLISM,Homocysteine synthesis,FAIL (should fail),FAIL (should fail),FAIL (should fail)
+AMINO ACIDS METABOLISM,HOMOCYSTEINE METABOLISM,Homocysteine synthesis (need methionine),true,true,true
+AMINO ACIDS METABOLISM,HOMOCYSTEINE METABOLISM,Homocysteine degradation,true,true,true
+AMINO ACIDS METABOLISM,ISOLEUCINE METABOLISM,Isoleucine synthesis,FAIL (should fail),FAIL (should fail),FAIL (should fail)
+AMINO ACIDS METABOLISM,ISOLEUCINE METABOLISM,Isoleucine degradation,true,true,true
+AMINO ACIDS METABOLISM,LEUCINE METABOLISM,Leucine synthesis,FAIL (should fail),FAIL (should fail),FAIL (should fail)
+AMINO ACIDS METABOLISM,LEUCINE METABOLISM,Leucine degradation,true,true,true
+AMINO ACIDS METABOLISM,LEUCINE METABOLISM,Conversion of leucine to acetyl-coA,true,true,true
+AMINO ACIDS METABOLISM,LYSINE METABOLISM,Lysine synthesis,FAIL (should fail),FAIL (should fail),FAIL (should fail)
+AMINO ACIDS METABOLISM,LYSINE METABOLISM,Lysine degradation,true,true,true
+AMINO ACIDS METABOLISM,LYSINE METABOLISM,Conversion of lysine to L-Saccharopine,true,true,true
+AMINO ACIDS METABOLISM,LYSINE METABOLISM,Conversion of lysine to L-2-Aminoadipate,FAIL (should NOT fail),FAIL (should NOT fail),FAIL (should NOT fail)
+AMINO ACIDS METABOLISM,METHIONINE METABOLISM,Methionine synthesis,FAIL (should fail),FAIL (should fail),FAIL (should fail)
+AMINO ACIDS METABOLISM,METHIONINE METABOLISM,Methionine degradation,true,true,true
+AMINO ACIDS METABOLISM,METHIONINE METABOLISM,S-adenosyl-L-methionine synthesis,true,true,true
+AMINO ACIDS METABOLISM,ORNITHINE METABOLISM,Ornithine degradation,true,true,true
+AMINO ACIDS METABOLISM,ORNITHINE METABOLISM,Synthesis of ornithine from glutamine,true,true,true
+AMINO ACIDS METABOLISM,ORNITHINE METABOLISM,Synthesis of spermidine from ornithine,true,true,true
+AMINO ACIDS METABOLISM,SERINE METABOLISM,Serine synthesis,true,true,true
+AMINO ACIDS METABOLISM,SERINE METABOLISM,Serine degradation,true,true,true
+AMINO ACIDS METABOLISM,PHENYLALANINE METABOLISM,Phenylalanine synthesis,FAIL (should fail),FAIL (should fail),FAIL (should fail)
+AMINO ACIDS METABOLISM,PHENYLALANINE METABOLISM,Phenylalanine degradation,FAIL (should NOT fail),FAIL (should NOT fail),true
+AMINO ACIDS METABOLISM,PHENYLALANINE METABOLISM,Phenylalanine to phenylacetaldehyde,true,true,true
+AMINO ACIDS METABOLISM,PHENYLALANINE METABOLISM,Phenylalanine to phenylacetyl-L-glutaminate,FAIL (should NOT fail),FAIL (should NOT fail),FAIL (should NOT fail)
+AMINO ACIDS METABOLISM,PHENYLALANINE METABOLISM,Phenylalanine to tyrosine,true,true,true
+AMINO ACIDS METABOLISM,PROLINE METABOLISM,Proline synthesis,true,true,true
+AMINO ACIDS METABOLISM,PROLINE METABOLISM,Proline degradation,true,true,true
+AMINO ACIDS METABOLISM,PROLINE METABOLISM,Synthesis of proline from glutamine,true,true,true
+AMINO ACIDS METABOLISM,THREONINE METABOLISM,Threonine synthesis,FAIL (should fail),FAIL (should fail),FAIL (should fail)
+AMINO ACIDS METABOLISM,THREONINE METABOLISM,Threonine degradation,true,true,true
+AMINO ACIDS METABOLISM,TRYPTOPHAN METABOLISM,Tryptophan synthesis,FAIL (should fail),FAIL (should fail),FAIL (should fail)
+AMINO ACIDS METABOLISM,TRYPTOPHAN METABOLISM,Tryptophan degradation,FAIL (should NOT fail),FAIL (should NOT fail),FAIL (should NOT fail)
+AMINO ACIDS METABOLISM,TRYPTOPHAN METABOLISM,Synthesis of anthranilate from tryptophan,true,true,true
+AMINO ACIDS METABOLISM,TRYPTOPHAN METABOLISM,Synthesis of kynate from tryptophan,true,true,true
+AMINO ACIDS METABOLISM,TRYPTOPHAN METABOLISM,Synthesis of L-kynurenine from tryptophan,true,true,true
+AMINO ACIDS METABOLISM,TRYPTOPHAN METABOLISM,Synthesis of N-formylanthranilate from tryptophan,true,true,true
+AMINO ACIDS METABOLISM,TRYPTOPHAN METABOLISM,Synthesis of quinolinate from tryptophan,true,true,true
+AMINO ACIDS METABOLISM,TRYPTOPHAN METABOLISM,Synthesis of serotonin from tryptophan,true,true,true
+AMINO ACIDS METABOLISM,TYROSINE METABOLISM,Tyrosine synthesis,FAIL (should fail),FAIL (should fail),FAIL (should fail)
+AMINO ACIDS METABOLISM,TYROSINE METABOLISM,Tyrosine synthesis (need phenylalanine),true,true,true
+AMINO ACIDS METABOLISM,TYROSINE METABOLISM,Tyrosine degradation,FAIL (should NOT fail),FAIL (should NOT fail),true
+AMINO ACIDS METABOLISM,TYROSINE METABOLISM,Tyrosine to adrenaline,FAIL (should NOT fail),true,true
+AMINO ACIDS METABOLISM,TYROSINE METABOLISM,Tyrosine to dopamine,FAIL (should NOT fail),true,true
+AMINO ACIDS METABOLISM,TYROSINE METABOLISM,Tyrosine to acetoacetate and fumarate,FAIL (should NOT fail),FAIL (should NOT fail),true
+AMINO ACIDS METABOLISM,VALINE METABOLISM,Valine synthesis,FAIL (should fail),FAIL (should fail),FAIL (should fail)
+AMINO ACIDS METABOLISM,VALINE METABOLISM,Valine degradation,true,true,true
+AMINO ACIDS METABOLISM,VALINE METABOLISM,Valine to succinyl-coA,true,true,true
+LIPIDS METABOLISM,CHOLESTEROL METABOLISM,Hydroxymethylglutaryl-CoA synthesis,true,true,true
+LIPIDS METABOLISM,CHOLESTEROL METABOLISM,Cholesterol synthesis,true,true,true
+LIPIDS METABOLISM,CHOLESTEROL METABOLISM,Acetoacetate synthesis,true,true,true
+LIPIDS METABOLISM,CHOLESTEROL METABOLISM,Mevalonate synthesis,true,true,true
+LIPIDS METABOLISM,CHOLESTEROL METABOLISM,Farnesyl-pyrophosphate synthesis,true,true,true
+LIPIDS METABOLISM,GLYCEROPHOSPHOLIPID METABOLISM,Glycerol-3-phosphate synthesis,true,true,true
+LIPIDS METABOLISM,GLYCEROPHOSPHOLIPID METABOLISM,Phosphatidyl-choline synthesis,true,true,true
+LIPIDS METABOLISM,GLYCEROPHOSPHOLIPID METABOLISM,Phosphatidyl-ethanolamine synthesis,true,true,true
+LIPIDS METABOLISM,GLYCEROPHOSPHOLIPID METABOLISM,Phosphatidyl-serine synthesis,true,true,true
+LIPIDS METABOLISM,GLYCEROPHOSPHOLIPID METABOLISM,Phosphatidyl-inositol synthesis,true,true,true
+LIPIDS METABOLISM,GLYCEROPHOSPHOLIPID METABOLISM,Cardiolipin synthesis,true,true,true
+LIPIDS METABOLISM,TRIACYLGLYCEROL METABOLISM,Triacylglycerol synthesis,FAIL (should NOT fail),FAIL (should NOT fail),FAIL (should NOT fail)
+LIPIDS METABOLISM,SPHINGOLIPID METABOLISM,Sphingomyelin synthesis,true,true,true
+LIPIDS METABOLISM,SPHINGOLIPID METABOLISM,Ceramide synthesis,true,true,true
+LIPIDS METABOLISM,FATTY ACID METABOLISM,Palmitate synthesis,true,true,true
+LIPIDS METABOLISM,FATTY ACID METABOLISM,Palmitate degradation,true,true,true
+LIPIDS METABOLISM,FATTY ACID METABOLISM,Palmitolate synthesis,true,true,true
+LIPIDS METABOLISM,FATTY ACID METABOLISM,Palmitolate degradation,true,true,true
+LIPIDS METABOLISM,FATTY ACID METABOLISM,cis-vaccenic acid synthesis,true,true,true
+LIPIDS METABOLISM,FATTY ACID METABOLISM,cis-vaccenic acid degradation,true,true,true
+LIPIDS METABOLISM,FATTY ACID METABOLISM,Elaidate synthesis,true,true,true
+LIPIDS METABOLISM,FATTY ACID METABOLISM,Elaidate degradation,true,true,true
+LIPIDS METABOLISM,FATTY ACID METABOLISM,Linolenate synthesis,PASS (should fail),FAIL (should fail),PASS (should fail)
+LIPIDS METABOLISM,FATTY ACID METABOLISM,Linolenate degradation,true,true,true
+LIPIDS METABOLISM,FATTY ACID METABOLISM,Linoleate synthesis,PASS (should fail),FAIL (should fail),PASS (should fail)
+LIPIDS METABOLISM,FATTY ACID METABOLISM,Linoleate degradation,true,true,true
+LIPIDS METABOLISM,FATTY ACID METABOLISM,gamma-Linolenate synthesis,true,true,true
+LIPIDS METABOLISM,FATTY ACID METABOLISM,gamma-Linolenate degradation,true,true,true
+LIPIDS METABOLISM,FATTY ACID METABOLISM,Arachidonate synthesis,true,true,true
+LIPIDS METABOLISM,FATTY ACID METABOLISM,Arachidonate degradation,true,true,true
+LIPIDS METABOLISM,FATTY ACID METABOLISM,Synthesis of malonyl-coa,true,true,true
+LIPIDS METABOLISM,FATTY ACID METABOLISM,Synthesis of palmitoyl-CoA,true,true,true
+LIPIDS METABOLISM,BILE ACID SYNTHESIS,Taurochenodeoxycholate synthesis,FAIL (should NOT fail),FAIL (should NOT fail),FAIL (should NOT fail)
+LIPIDS METABOLISM,BILE ACID SYNTHESIS,Glycochenodeoxycholate synthesis,true,true,true
+LIPIDS METABOLISM,BILE ACID SYNTHESIS,tauro-cholate synthesis,true,true,true
+LIPIDS METABOLISM,BILE ACID SYNTHESIS,glyco-cholate synthesis,FAIL (should NOT fail),FAIL (should NOT fail),FAIL (should NOT fail)
+LIPIDS METABOLISM,EICOSANOID METABOLISM,Synthesis of thromboxane from arachidonate,true,true,true
+LIPIDS METABOLISM,GANGLIOSIDE METABOLISM,Synthesis of galactosyl glucosyl ceramide (link with ganglioside metabolism),true,true,true
+LIPIDS METABOLISM,GANGLIOSIDE METABOLISM,Synthesis of glucocerebroside,true,true,true
+LIPIDS METABOLISM,GLOBOSIDE METABOLISM,Synthesis of globoside (link with globoside metabolism),true,true,true
+VITAMIN & COFACTOR METABOLISM,COENZYME NAD BIOSYNTHESIS,NAD synthesis from nicotinamide,true,true,true
+VITAMIN & COFACTOR METABOLISM,COENZYME FAD BIOSYNTHESIS,FAD synthesis,true,true,true
+VITAMIN & COFACTOR METABOLISM,COENZYME A BIOSYNTHESIS,Synthesis of coenzyme A,true,true,true
+VITAMIN & COFACTOR METABOLISM,UBIQUINONE 10 BIOSYNTHESIS,Synthesis of ubiquinone from tyrosine,true,FAIL (should NOT fail),true
+VITAMIN & COFACTOR METABOLISM,FOLATE METABOLISM,Tetrahydrofolate synthesis,true,true,true
+VITAMIN & COFACTOR METABOLISM,VITAMIN B6 METABOLISM,Pyridoxal-phosphate synthesis,true,true,true
+VITAMIN & COFACTOR METABOLISM,HEME METABOLISM,Synthesis of bilirubin,true,true,true
+VITAMIN & COFACTOR METABOLISM,HEME METABOLISM,Heme synthesis,true,true,true
+VITAMIN & COFACTOR METABOLISM,GPI ANCHOR BIOSYNTHESIS,Phosphatidyl-inositol to glucosaminyl-acylphosphatidylinositol,true,true,true
+GLYCAN METABOLISM,GPI ANCHOR BIOSYNTHESIS,Glucosaminyl-acylphosphatidylinositoll to deacylated-glycophosphatidylinositol (GPI)-anchored protein,true,true,true
+GLYCAN METABOLISM,N-GLYCAN METABOLISM,Degradation of n2m2nmasn,true,true,true
+GLYCAN METABOLISM,N-GLYCAN METABOLISM,Biosynthesis of m4mpdol_U,true,true,true
+GLYCAN METABOLISM,N-GLYCAN METABOLISM,Biosynthesis of g3m8masn,true,true,true
+GLYCAN METABOLISM,N-GLYCAN METABOLISM,Degradation of s2l2fn2m2masn,true,true,true
+GLYCAN METABOLISM,O-GLYCAN METABOLISM,"Biosynthesis of core2 (beta-D-Galactosyl-1,3-(N-acetyl-beta-D-glucosaminyl-1,6)-N-acetyl-D-galactosaminyl-R)",true,true,true
+GLYCAN METABOLISM,O-GLYCAN METABOLISM,"Biosynthesis of core4 (N-Acetyl-beta-D-glucosaminyl-1,6-(N-acetyl-beta-D-glucosaminyl-1,3)-N-acetyl-D-galactosaminyl-R)",true,true,true
+GLYCAN METABOLISM,O-GLYCAN METABOLISM,Biosynthesis of Tn_antigen (Glycoprotein N-acetyl-D-galactosamine),true,true,true
+GLYCAN METABOLISM,KERATAN SULFATE METABOLISM,Keratan sulfate biosynthesis from O-glycan (core 2-linked),true,true,true
+GLYCAN METABOLISM,KERATAN SULFATE METABOLISM,Keratan sulfate biosynthesis from O-glycan (core 4-linked),true,true,true
+GLYCAN METABOLISM,KERATAN SULFATE METABOLISM,Keratan sulfate degradation,true,true,true
+GLYCAN METABOLISM,KERATAN SULFATE METABOLISM,Keratan sulfate biosynthesis from N-glycan,true,true,true
+,,,193/210,194/210,195/210
+,,,0,0,0
